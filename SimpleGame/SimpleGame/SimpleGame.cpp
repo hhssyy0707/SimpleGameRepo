@@ -30,7 +30,7 @@ int main()
 
     }
     /*********************************************/
-
+    /*********************************************
 
     Game1 simpleGame1;
 
@@ -38,6 +38,24 @@ int main()
         simpleGame1.eventPoll();
         //FirstWindow.clear(Color::Cyan);
         //FirstWindow.display();
+    }
+    **********************************************/
+    /*********************************************/
+
+    //230925
+    //윈도우창 띄우기
+
+    //SimpleWindow();
+
+    Game1 SimpleGame;
+
+    //Game Loop
+    while (SimpleGame.Running())
+    {
+        SimpleGame.EventHandler();
+        SimpleGame.Update();
+        SimpleGame.Render();
+
     }
     
 }

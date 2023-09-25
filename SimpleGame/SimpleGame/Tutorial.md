@@ -1,4 +1,8 @@
+# Youtube Refernce
+https://www.youtube.com/watch?v=BySDfVNljG8&list=PL6xSOsbVA1eb_QqMTTcql_3PdOiE928up
+
 # SFML 라이브러리 설치
+- unreal engine의 역할(충들 이벤트 등)
 
 ## 웹사이트 다운로드
 https://www.sfml-dev.org/
@@ -33,6 +37,7 @@ https://www.sfml-dev.org/
 	- Linker > General > Additional Library Directories
 	- SFML에서 복사해온 파일/폴더가 있는 위치를 선택
 	```
+	- 상단 Configuration : Release 카테고리로 설정
 	- Linker > Input
 	- Configuration : Release
 	- sfml-system.lib
@@ -41,14 +46,16 @@ https://www.sfml-dev.org/
 	- sfml-audio.lib
 	- sfml-network.lib
 	
+	- 상단 Configuration : Debug 카테고리로 설정
 	- Linker > Input
-	- Configuration : Debug
 	- sfml-system-d.lib
 	- sfml-graphics-d.lib
 	- sfml-window-d.lib
 	- sfml-audio-d.lib
 	- sfml-network-d.lib
 	```
+- Visual Studio 설정
+- 상단의 에디터 툴바 설정 Debug : x64에서 x86으로 변경
 
 # Event ★★★
 
@@ -66,3 +73,7 @@ https://www.sfml-dev.org/
 ## 이벤트 핸들링(Event Handling)
 - Event Delegate 대리자..? 대신일해주다
 - Event Listening 이벤트 발생 여부를 계속적으로 감지함
+
+## SimpleGame 프로젝트에 구현한 Game 클래스
+- 게임을 전반적으로 컨트롤하는 클래스
+- 

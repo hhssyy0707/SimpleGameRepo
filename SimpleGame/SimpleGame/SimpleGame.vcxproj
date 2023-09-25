@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="Game1.cpp" />
     <ClCompile Include="SimpleGame.cpp" />
+    <ClCompile Include="SimpleWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Tutorial.md" />

@@ -6,3 +6,5 @@
 #include <SFML/Network.hpp>
 
 using namespace sf;
+
+void SimpleWindow();

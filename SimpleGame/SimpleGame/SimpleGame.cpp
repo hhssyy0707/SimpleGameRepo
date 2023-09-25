@@ -47,6 +47,8 @@ int main()
 
     //SimpleWindow();
 
+    srand(time(NULL)); //rand가 매번 무작위로 뽑을 수 있도록 미리 선언
+
     Game1 SimpleGame;
 
     //Game Loop
